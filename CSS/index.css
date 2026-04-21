@@ -1,0 +1,88 @@
+/******  NAVBAR  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky; /* rend la barre fixe quand on scroll*/
+    top: 0; /* colle navbar en haut */
+}
+
+/* Liens navbar */
+
+/*
+.navbar a {
+    color: white;
+    margin: 0 3px; /* espace entre les liens */ /*
+
+/******  Hero (image+titre)  */
+
+.hero{
+    text-align: center;
+    padding: 20px; /* espace autour */
+}
+
+/*  Image principe  */
+
+.hero img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/****** Boutons  */
+
+.boutton{
+    display: flex; /* met les boutons en ligne */
+    justify-content: space-around;
+    margin: 20px; /* espace autour*/
+}
+
+/*  Style des boutons  */
+
+button{
+    padding: 10px 20px; /* taille interne */
+    background: #2E86C1;
+    color: white; /* Texte blanc */
+    border: none;
+    border-radius: 8px; /* Coins arrondis*/
+}
+
+/****** Section*/
+
+.Section{
+    padding: 20px; /* espace interieur */
+}
+
+/*Conteneur des court_voyage*/
+
+.voyage {
+    display: flex;
+    flex-wrap: wrap; /* passer a la ligne suivante */
+    gap: 20px; /* espacer les cartes */
+}
+
+/****** Carte*/
+
+.destination {
+    background-color: white;
+    padding: 20px; /* espace interieur */
+    width: 45%; /*Prend presque la moitié*/
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha); /*ombre jegere*/
+}
+
+/*Lien voir plus*/
+
+.destination a {
+    color: #2E86C1;
+    text-decoration: none;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 10px; /* Espace interieur */
+    background: #333;  /* Fond ombre */
+    color: white; /* Texte blanc */
+}
