@@ -3,29 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="article.html">
+    <link rel="stylesheet" href="CSS/index.css"> 
+    <link rel="stylesheet" href="CSS/global.css">
     <title>Blog-De-Voyage-Personnel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-<body>
+<body> 
+   <!--  NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top">
+  <div class="container-fluid">
+    <div class="logo"><img src="images/logovoyage.png" alt="image" width="70" height="100"></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Accueil">ACCEUIL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#CourtVoyage">COURT VOYAGE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#LongVoyage">LONG VOYAGE</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
-    <!--  NAVBAR -->
-
-    <header class="navbar"> 
-        <div class="logo"><img src="images/logovoyage.png" alt="image" width="70" height="100"></div>
-        <nav >
-         <a href="#Accueil">Accueil</a>
-         <a href="#CourtVoyage">Court Voyage</a>
-         <a href="#LongVoyage">Long Voyage</a>
-        </nav>
-        <div class="barre-recherche">
-          <input type="text" placeholder="🔍 Rechercher...">
-        </div>
-    </header>
     
-    <!--  Image + Recherche -->
+    <!-- Image + Recherche -->
     
-    <div id="Acceuil">
+    <div id="Accueil">
     <section class="hero">
         <img src="images/Acceuil.jpg" alt="voyage">
         <div class="herotexte">
@@ -58,7 +73,7 @@
                     où l'énergie urbaine rencontre l'histoire <br>
                     de l'île de Gorée et les plages de la presqu'île.
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#dakar" >Voir Plus</a>
               </div>
            </div>
 
@@ -70,7 +85,7 @@
                    avec son port de pêche animé et le spectacle coloré <br>
                    du retour des pirogues.
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#mbour">Voir Plus</a>
               </div>
            </div>
 
@@ -78,8 +93,11 @@
             <img src="images/Thies.jpeg" alt="court">
               <div class="container">
                 <h3>Thies</h3>
-                <p></p>
-                <a href="article.html">Voir Plus</a>
+                <p>Explorez les richesses de la région de Thiès : <br>
+                   de ses manufactures de tapisseries renommées aux paysages <br>
+                   de baobabs environnants. Une étape culturelle incontournable <br>
+                   à seulement une heure de Dakar.</p>
+                <a href="article.html#thies">Voir Plus</a>
               </div>
            </div>
 
@@ -87,8 +105,10 @@
             <img src="images/Stlouis.jpeg" alt="court">
             <div class="container">
               <h3>Saint-Louis</h3>
-              <p></p>
-              <a href="article.html">Voir Plus</a>
+              <p>Plongez dans l'élégance de Saint-Louis. Reconnue par l'UNESCO, <br>
+                 la ville est un joyau de culture, célèbre pour son festival de jazz <br>
+                 et l'accueil chaleureux de ses habitants.</p>
+              <a href="article.html#saint-louis">Voir Plus</a>
             </div>
            </div>
 
@@ -113,7 +133,7 @@
                    une terre de traditions ancestrales et de paysages <br>
                    sahéliens grandioses."
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#mali">Voir Plus</a>
               </div>
            </div>
 
@@ -125,7 +145,7 @@
                    mélange parfait de culture créole, de randonnées sauvages <br>
                    et d'eaux turquoise.
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#cap-vert">Voir Plus</a>
               </div>
            </div>
 
@@ -137,7 +157,7 @@
                    une culture riche, au milieu de paysages grandioses <br>
                    et d'une faune préservée.
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#kenya">Voir Plus</a>
               </div>
            </div>
 
@@ -149,7 +169,7 @@
                    les plus célèbres d'Afrique et l'exotisme d'un archipel aux <br>
                    eaux turquoise.
                 </p>
-                <a href="article.html">Voir Plus</a>
+                <a href="article.html#tanzanie">Voir Plus</a>
               </div>
            </div>
         </div>

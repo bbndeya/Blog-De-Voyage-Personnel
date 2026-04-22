@@ -1,6 +1,6 @@
 /******  NAVBAR  */
 body{
-    background-color: #F0F0F0;
+    background-color: #557180;
 }
 
 .navbar{
@@ -20,11 +20,6 @@ nav a{
     text-decoration: none;
     margin: 0 3px;
 }
-/*.navbar a {
-    color: white;
-    margin: 0 3px; /* espace entre les liens /*
-
-/******  Hero (image+titre)  */
 
 .hero{
     position: relative; /* POSITIONNER LE TEXTE AU DESSOUS DE L'ILAGE */
@@ -53,7 +48,7 @@ nav a{
 
 .hero img {
     width: 100%;
-    height: 350px;
+    height: 600px;
     object-fit: cover; /*  EMPECHE L'IMAGE DE SE DEFORME*/
 }
      /*Boutton*/
@@ -97,8 +92,9 @@ button{
 
 .voyage {
     display: flex;
-    flex-wrap: wrap; /* passer a la ligne suivante */
-    gap: 20px; /* espacer les cartes */
+    flex-wrap: wrap;  /* passer a la ligne suivante */
+    gap: 30px;  /* espacer les cartes */
+    padding: 0 50px;  /*Marge equitable*/
 }
 
 /****** Carte*/
@@ -124,8 +120,6 @@ button{
     color: #2E86C1;
     text-decoration: none;
 }
-
-
 
 .destination {
     background-color: white;
